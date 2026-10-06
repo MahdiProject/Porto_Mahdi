@@ -399,7 +399,7 @@ export default function Home() {
               <div className="relative aspect-[16/9] overflow-hidden">
                 <Image
                   src="/projek/Badminton.png"
-                  alt="Project 1"
+                  alt="Sistem booking lapangan badminton"
                   fill
                   sizes="(max-width: 768px) 100vw, 896px"
                   className="object-cover group-hover:scale-105 transition-transform duration-300"
@@ -407,10 +407,13 @@ export default function Home() {
               </div>
               <div className="p-6">
                 <h3 className="font-semibold text-white text-lg mb-2 group-hover:text-sky-400 transition-colors">
-                  Project ke 1 saya 
+                  Sistem Booking Lapangan Badminton
                 </h3>
-                <p className="text-slate-400 text-sm mb-4">
-                  Web Lapangan Badminton
+                <p className="text-slate-400 text-sm mb-4 leading-relaxed">
+                  Aplikasi web penyewaan lapangan — user bisa cek jadwal
+                  ketersediaan, booking slot jam, dan pantau riwayat sewa
+                  tanpa ribet chat manual. Dilengkapi panel admin untuk
+                  kelola lapangan, harga, dan laporan penyewaan.
                 </p>
                 <div className="flex gap-2 flex-wrap">
                   <span className="text-xs px-2.5 py-1 bg-sky-500/10 text-sky-400 rounded border border-sky-500/20">
@@ -418,6 +421,9 @@ export default function Home() {
                   </span>
                   <span className="text-xs px-2.5 py-1 bg-sky-500/10 text-sky-400 rounded border border-sky-500/20">
                     Tailwind
+                  </span>
+                  <span className="text-xs px-2.5 py-1 bg-sky-500/10 text-sky-400 rounded border border-sky-500/20">
+                    MySQL
                   </span>
                 </div>
               </div>
@@ -428,7 +434,7 @@ export default function Home() {
               <div className="relative aspect-[16/9] overflow-hidden">
                 <Image
                   src="/projek/Ikanasin.png"
-                  alt="Project 2"
+                  alt="Toko online ikan asin"
                   fill
                   sizes="(max-width: 768px) 100vw, 896px"
                   className="object-cover group-hover:scale-105 transition-transform duration-300"
@@ -436,10 +442,13 @@ export default function Home() {
               </div>
               <div className="p-6">
                 <h3 className="font-semibold text-white text-lg mb-2 group-hover:text-sky-400 transition-colors">
-                  Project ke 2 saya 
+                  Toko Online Ikan Asin
                 </h3>
-                <p className="text-slate-400 text-sm mb-4">
-                  Web Toko Ikan Asin.
+                <p className="text-slate-400 text-sm mb-4 leading-relaxed">
+                  Website katalog & penjualan ikan asin dengan tampilan
+                  modern dan responsif — pembeli mudah jelajahi produk,
+                  lihat detail & harga, lalu pesan lewat keranjang.
+                  Cepat di HP, rapi di desktop, siap bantu UMKM jualan online.
                 </p>
                 <div className="flex gap-2 flex-wrap">
                   <span className="text-xs px-2.5 py-1 bg-sky-500/10 text-sky-400 rounded border border-sky-500/20">
