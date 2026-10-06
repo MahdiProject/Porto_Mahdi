@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -395,11 +396,13 @@ export default function Home() {
 
             {/* Project 1 */}
             <div className="bg-[#111827] border border-slate-800 rounded-2xl overflow-hidden hover:border-sky-500/40 transition-colors group">
-              <div className="aspect-[16/9] overflow-hidden">
-                <img
-                  src="/projek/Badminton1.png"
+              <div className="relative aspect-[16/9] overflow-hidden">
+                <Image
+                  src="/projek/Badminton.png"
                   alt="Project 1"
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  fill
+                  sizes="(max-width: 768px) 100vw, 896px"
+                  className="object-cover group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="p-6">
@@ -422,11 +425,13 @@ export default function Home() {
 
             {/* Project 2 */}
             <div className="bg-[#111827] border border-slate-800 rounded-2xl overflow-hidden hover:border-sky-500/40 transition-colors group">
-              <div className="aspect-[16/9] overflow-hidden">
-                <img
-                  src="/projek/image.png"
+              <div className="relative aspect-[16/9] overflow-hidden">
+                <Image
+                  src="/projek/Ikanasin.png"
                   alt="Project 2"
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  fill
+                  sizes="(max-width: 768px) 100vw, 896px"
+                  className="object-cover group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="p-6">
