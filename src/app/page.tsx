@@ -461,6 +461,38 @@ export default function Home() {
               </div>
             </div>
 
+            {/* Project 3 */}
+            <div className="bg-[#111827] border border-slate-800 rounded-2xl overflow-hidden hover:border-sky-500/40 transition-colors group">
+              <div className="relative aspect-[16/9] overflow-hidden">
+                <Image
+                  src="/projek/Haribahagiaku.png"
+                  alt="Platform undangan pernikahan digital Hari Bahagiaku"
+                  fill
+                  sizes="(max-width: 768px) 100vw, 896px"
+                  className="object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="font-semibold text-white text-lg mb-2 group-hover:text-sky-400 transition-colors">
+                  Hari Bahagiaku — Undangan Pernikahan Digital
+                </h3>
+                <p className="text-slate-400 text-sm mb-4 leading-relaxed">
+                  Platform pembuatan undangan pernikahan digital — pilih
+                  template elegan, sebarkan link undangan, terima RSVP &
+                  konfirmasi kehadiran otomatis, plus amplop digital.
+                  Dilengkapi halaman template, harga, testimoni, dan FAQ.
+                </p>
+                <div className="flex gap-2 flex-wrap">
+                  <span className="text-xs px-2.5 py-1 bg-sky-500/10 text-sky-400 rounded border border-sky-500/20">
+                    Next.js
+                  </span>
+                  <span className="text-xs px-2.5 py-1 bg-sky-500/10 text-sky-400 rounded border border-sky-500/20">
+                    Tailwind
+                  </span>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
